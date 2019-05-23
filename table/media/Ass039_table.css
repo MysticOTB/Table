@@ -1,0 +1,47 @@
+table{
+width: 400px;
+font-size: 100%;
+empty-cells: hide;
+}
+
+td{
+font-family: "Courier New", Courier, serif;
+}
+
+th, caption{
+font-family: Verdana, san-seriff;
+}
+
+caption{
+text-align: left;
+font-weight: bold;
+color: #3498dbs;
+padding: 3px 0 4px 5px;
+background-color: #1abc9c;
+border: 1px solid #fff;
+}
+
+td, th{
+text-align: left;
+padding: 3px 0 4px 5px;
+vertical-align: middle;
+border: 1px solid #fff;
+}
+
+thead th{
+background-color: #f39c12;
+}
+
+tbody th{
+background-color: #27ae60;
+}
+
+tbody td{
+background-color: #2ecc71;
+}
+
+tfoot{
+background-color: #960;
+color: #2c3e50;
+font-weight: bold;
+}
